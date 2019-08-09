@@ -1,0 +1,32 @@
+ // this.activateRouter.queryParams.filter(params=>params.postType).subscribe(params=>{
+    //        this.postType = params.postType;
+    //     });
+
+
+
+        // this.activateRouter.queryParamMap.pipe(switchMap(params=>
+        //  this.postType = params.get('postType')
+        //   ));
+
+        // this.afs.collection('blogPost',ref=>ref.where("blogCatgegory",'==',this.postType)).valueChanges().subscribe(
+        //   val=> {
+        //     this.fPost=val;
+        //     console.log(val)
+        //   }
+        // )     
+        // console.log(this.postType);
+        // this.afs.collection('blogPost',ref=>ref.where("blogCategory",'==',this.postType)).snapshotChanges().subscribe(
+        //     val=> {
+        //       this.fPost= val.map(pst=>{
+        //         return {
+        //           id:pst.payload.doc.id,
+        //           blogAuthor:pst.payload.doc.data()['blogAuthor'],
+        //           blogCategory:pst.payload.doc.data()['blogCategory'],
+        //           blogContent:pst.payload.doc.data()['blogContent'],
+        //           blogImageLink:pst.payload.doc.data()['blogImageLink'],
+        //           blogTitle:pst.payload.doc.data()['blogTitle'],
+        //           published:pst.payload.doc.data()['published']
+        //         }
+        //       })
+        //     }
+        //   )
